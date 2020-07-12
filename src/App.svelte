@@ -3,6 +3,7 @@
 
 <main>
 	<h1>skrifblokk</h1>
+	<p>v0.1.3</p>
 </main>
 
 <style>
