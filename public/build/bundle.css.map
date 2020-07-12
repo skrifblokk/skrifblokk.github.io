@@ -5,8 +5,8 @@
     "../../App.svelte"
   ],
   "sourcesContent": [
-    "<script>\n</script>\n\n<main>\n\t<h1>skrifblokk</h1>\n</main>\n\n<style>\n\tmain {\n\t\tmin-height: 100vh;\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\talign-items: center;\n\t}\n\th1 {\n\t\tmargin: auto;\n\t\tfont-size: 10vw;\n\t}\n</style>"
+    "<script>\n</script>\n\n<main>\n\t<h1>skrifblokk</h1>\n\t<p>v0.1.3</p>\n</main>\n\n<style>\n\tmain {\n\t\tmin-height: 100vh;\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\talign-items: center;\n\t}\n\th1 {\n\t\tmargin: auto;\n\t\tfont-size: 10vw;\n\t}\n\tp {\n\t\tpadding: 1.5em;\n\t}\n</style>"
   ],
   "names": [],
-  "mappings": "AAQC,IAAI,eAAC,CAAC,AACL,UAAU,CAAE,KAAK,CACjB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,WAAW,CAAE,MAAM,AACpB,CAAC,AACD,EAAE,eAAC,CAAC,AACH,MAAM,CAAE,IAAI,CACZ,SAAS,CAAE,IAAI,AAChB,CAAC"
+  "mappings": "AASC,IAAI,cAAC,CAAC,AACL,UAAU,CAAE,KAAK,CACjB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,WAAW,CAAE,MAAM,AACpB,CAAC,AACD,EAAE,cAAC,CAAC,AACH,MAAM,CAAE,IAAI,CACZ,SAAS,CAAE,IAAI,AAChB,CAAC,AACD,CAAC,cAAC,CAAC,AACF,OAAO,CAAE,KAAK,AACf,CAAC"
 }

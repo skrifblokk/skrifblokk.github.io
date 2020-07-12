@@ -17,4 +17,7 @@
 		margin: auto;
 		font-size: 10vw;
 	}
+	p {
+		padding: 1.5em;
+	}
 </style>
