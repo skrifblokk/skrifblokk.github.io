@@ -7,8 +7,8 @@
     "dev": "run-p start:dev autobuild",
     "start": "sirv public --single",
 		"start:dev": "sirv public --single --dev",
-    "predeploy": "npm run build && cp CNAME public/",
-    "deploy": "npx gh-pages -d public/"
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d public"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^12.0.0",
