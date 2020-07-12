@@ -1,0 +1,82 @@
+:root {
+  /* Scale */
+  --ratio: 1.5;
+  
+  --s0: 1rem;
+  
+  --s0x: 1.166666667rem;
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  
+  --s-s: calc(var(--s0) * 0.875);
+  --s-1: calc(var(--s0) / var(--ratio));
+  --s-2: calc(var(--s-1) / var(--ratio));
+  --s-3: calc(var(--s-2) / var(--ratio));
+  --s-4: calc(var(--s-3) / var(--ratio));
+
+  --measure: 60ch;
+  
+  /* Type */
+  --font-sans: 'Inter var experimental', 'Inter var', Inter;
+  --t0: 0em /* -0.011em; */
+  --t1: -0.019em;
+  --t2: -0.022em;
+  --t3: -0.033em;
+  
+  --fs0: 1rem;
+  --fs1: 1.25rem;
+  --fs2: 1.5rem;
+  --fs3: 2rem;
+  
+  
+  --normal-weight: 400;
+  --medium-weight: 512;
+  --strong-weight: 600;
+
+
+  /* Color */
+  --pewter: #739fab;
+  --flame: #e0521a;
+  --alabaster: #f4f2e6;
+  
+  --copper: #ce7365;
+  --verdigris: #5ab3b6;
+  --steel: #518ab8;
+  --gold: #e3ca90;
+  
+  --raisinblack0: #16161c;
+  --raisinblack1: #1c1e26;
+  --raisinblack2: #262830; /* hsla(228, 12%, 17%, 1.0); */
+  --gunmetal: #30333f; /* hsla(228, 14%, 22%, 1.0) */
+  --charcoal: #454a58; /* hsla(224, 12%, 31%, 1.0) */
+  --blackcoral1: #595d6c; /* hsla(227, 10%, 39%, 1.0) */
+  --blackcoral2: #6a6e7f; /* hsla(229, 9%, 46%, 1.0) */
+  --manatee: #959aa9; /* hsla(225, 10%, 62%, 1.0) */
+  --lavendergray: #cfd1da; /* hsla(229, 13%, 83%, 1.0) */
+  --gainsboro: #e2e3e9; /* hsla(231, 14%, 90%, 1.0) */  
+  --ghostwhite: #f5f6fa; /* hsla(228, 33%, 97%, 1.0); */
+  --cultured: #f9fafb; /* hsla(210, 20%, 98%, 1.0); */
+  --white: #ffffff;
+
+  --blk: var(--raisinblack0);
+  --blker: var(--raisinblack1);
+  --blkish: var(--raisinblack2);
+
+  --graydarkest: var(--gunmetal);
+  --graydarker: var(--charcoal);
+  --graydark: var(--blackcoral1);
+  --gray: var(--blackcoral2);
+  --graylite: var(--manatee);
+  --grayliter: var(--lavendergray);
+  --graylitest: var(--gainsboro);
+  
+  --dark: var(--blkish);
+  --light: var(--cultured);
+  --primary: var(--pewter);
+  --secondary: var(--flame);
+  --bg: var(--light);
+  --fg: var(--dark);
+  
+  /* --light-fade: hsla(228, 33%, 97%, 0.5); */
+}
