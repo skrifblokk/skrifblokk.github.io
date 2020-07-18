@@ -19,7 +19,7 @@
   
   /* Type */
   --font-sans: 'Inter var experimental', 'Inter var', Inter;
-  --t0: 0em /* -0.011em; */
+  --t0: 0em; /* -0.011em; */
   --t1: -0.019em;
   --t2: -0.022em;
   --t3: -0.033em;

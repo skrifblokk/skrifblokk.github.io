@@ -13,7 +13,7 @@ html, body {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
   font-family: var(--font-sans);
-  font-feature-settings: 'calt', 'zero';
+  font-feature-settings: 'calt', 'case', 'zero';
   font-size: 16px;
   letter-spacing: var(--t0);
 }
@@ -26,23 +26,17 @@ div {
   color: var(--fg);
 }
 
-/*
-a[href] {
-  border-bottom: 1px dashed;
-  text-decoration: none;
-}
-
-a[href]:hover {
-  border-bottom-style: solid;
-}
-*/
-
 strong {
   font-weight: var(--strong-weight);
 }
 
 del {
   opacity: 0.5;
+}
+
+hr {
+  border-color: var(--secondary);
+  margin-top: calc(var(--s1) / 2);
 }
 
 h1, .rm-title-display, .rm-title-textarea {
