@@ -4,7 +4,7 @@
   
   --s0: 1rem;
   
-  --s0x: 1.166666667rem;
+  --s0-875: 1.166666667rem;
   --s1: calc(var(--s0) * var(--ratio));
   --s2: calc(var(--s1) * var(--ratio));
   --s3: calc(var(--s2) * var(--ratio));
@@ -29,11 +29,9 @@
   --fs2: 1.5rem;
   --fs3: 2rem;
   
-  
   --normal-weight: 400;
   --medium-weight: 512;
   --strong-weight: 600;
-
 
   /* Color */
   --pewter: #739fab;
@@ -46,7 +44,7 @@
   --gold: #e3ca90;
   
   --raisinblack0: #16161c;
-  --raisinblack1: #1c1e26;
+  --raisinblack1: #1c1e26; /* hsla(228, 15%, 13%, 1.0); */
   --raisinblack2: #262830; /* hsla(228, 12%, 17%, 1.0); */
   --gunmetal: #30333f; /* hsla(228, 14%, 22%, 1.0) */
   --charcoal: #454a58; /* hsla(224, 12%, 31%, 1.0) */
@@ -57,7 +55,7 @@
   --gainsboro: #e2e3e9; /* hsla(231, 14%, 90%, 1.0) */  
   --ghostwhite: #f5f6fa; /* hsla(228, 33%, 97%, 1.0); */
   --cultured: #f9fafb; /* hsla(210, 20%, 98%, 1.0); */
-  --white: #ffffff;
+  --white: #ffffff; /* hsla(0, 0%, 100%, 1.0); */
 
   --blk: var(--raisinblack0);
   --blker: var(--raisinblack1);
@@ -69,12 +67,21 @@
   --gray: var(--blackcoral2);
   --graylite: var(--manatee);
   --grayliter: var(--lavendergray);
-  --graylitest: var(--gainsboro);
+	--graylitest: var(--gainsboro);
+	
+	--white-a100: hsla(0, 0%, 100%, 1.00);
+	--white-a000: hsla(0, 0%, 100%, 0.00);
+	--blker-a100: hsla(228, 15%, 13%, 1.00);
+	--blker-a000: hsla(228, 15%, 13%, 0.00);
+	--dark-a100: var(--blker-a100);
+	--dark-a000: var(--blker-a000);
   
-  --dark: var(--blkish);
-  --light: var(--cultured);
+  --dark: var(--blker);
+	--light: var(--cultured);
+	
   --primary: var(--pewter);
-  --secondary: var(--flame);
-  --bg: var(--light);
+	--secondary: var(--flame);
+	
+  --bg: var(--white);
   --fg: var(--dark);
 }
