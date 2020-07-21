@@ -2,8 +2,6 @@
 
 @import url('https://rsms.me/inter/inter.css');
 @import './minireset.css';
-@import './var.css';
-
 
 
 
@@ -138,7 +136,6 @@ h3.rm-level3 {
 .bp3-popover, .bp3-elevation-3 {
   font-size: var(--s-s);
 }
-
 
 
 
