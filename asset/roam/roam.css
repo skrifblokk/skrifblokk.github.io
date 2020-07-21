@@ -11,9 +11,9 @@ html, body {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
   font-family: var(--font-sans);
-  font-feature-settings: 'calt', 'case', 'zero';
+  font-feature-settings: 'calt', 'zero';
   font-size: 16px;
-  letter-spacing: var(--t0);
+	letter-spacing: var(--t0);
 }
 
 div {
@@ -22,6 +22,16 @@ div {
 
 .roam-body .roam-app {
   color: var(--fg);
+}
+
+.roam-body-main {
+	height: 100% !important;
+	top: 0 !important;
+	min-height: 100vh;
+}
+
+.roam-article {
+	margin-top: var(--s3);
 }
 
 strong {
@@ -62,9 +72,9 @@ h3.rm-level3 {
 }
 */
 
-.rm-title-textarea {
+/* .rm-title-textarea {
   height: auto !important;
-}
+} */
 
 .CodeMirror {
   font-family: monospace;
@@ -137,6 +147,13 @@ h3.rm-level3 {
   font-size: var(--s-s);
 }
 
+
+
+/* TOPBAR */
+
+.roam-topbar {
+	background: var(--bg);
+}
 
 
 /* LEFT SIDEBAR */
