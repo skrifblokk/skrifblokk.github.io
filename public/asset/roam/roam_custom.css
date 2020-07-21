@@ -105,7 +105,7 @@ h3.rm-level3 {
 /* LEFT SIDEBAR */
 .roam-body .roam-app 
 .roam-sidebar-container {
-  background: var(--fg);
+  background: var(--bg-left);
 }
 
 .roam-body .roam-app 
@@ -130,7 +130,7 @@ h3.rm-level3 {
 /* RIGHT SIDEBAR */
 
 #right-sidebar {
-	padding-left: var(--s0);
+	background-color: var(--bg-right);
   box-shadow: 0 0 var(--s1) 0.0625em hsla(228, 15%, 13%, 0.1);
 }
 
