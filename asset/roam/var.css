@@ -4,12 +4,11 @@
   
   --s0: 1rem;
   
-  --s0-875: 1.166666667rem;
   --s1: calc(var(--s0) * var(--ratio));
   --s2: calc(var(--s1) * var(--ratio));
   --s3: calc(var(--s2) * var(--ratio));
   
-  --s-s: calc(var(--s0) * 0.875);
+  --size-s: calc(var(--s0) * 0.875);
   --s-1: calc(var(--s0) / var(--ratio));
   --s-2: calc(var(--s-1) / var(--ratio));
   --s-3: calc(var(--s-2) / var(--ratio));
@@ -77,11 +76,19 @@
 	--dark-a000: var(--blker-a000);
   
   --dark: var(--blker);
-	--light: var(--cultured);
+	--light: var(--ghostwhite);
 	
   --primary: var(--pewter);
 	--secondary: var(--flame);
 	
-  --bg: var(--white);
-  --fg: var(--dark);
+	--bg: var(--white);
+	--fg: var(--dark);
+
+	--bg-lite: var(--light);
+	--fg-lite: var(--gray);
+	--fg-liter: var(--grayliter);
+
+	--bg-top: linear-gradient(180deg, var(--white-a100) 0%, var(--white-a000) 100%);
+	--bg-left: var(--fg);
+	--bg-right: var(--bg);
 }

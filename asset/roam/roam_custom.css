@@ -3,7 +3,7 @@
 @import url('https://rsms.me/inter/inter.css');
 @import './minireset.css';
 
-/* GLOBAL --------------------------------------------------------------------*/
+/* GLOBAL !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 html, body {
   -webkit-font-smoothing: auto;
@@ -25,7 +25,7 @@ strong {
 }
 
 del {
-  color: var(--graylite);
+  color: var(--fg-liter);
 }
 
 hr {
@@ -48,7 +48,7 @@ h2.rm-level2 {
 }
 
 h3.rm-level3 {
-	font-size: var(--s0x);
+	font-size: var(--size-s);
   font-weight: var(--medium-weight);
   letter-spacing: var(--t1);
 }
@@ -98,7 +98,7 @@ h3.rm-level3 {
 
 .roam-topbar {
 	background-color: transparent;
-  background: linear-gradient(180deg, var(--white-a100) 0%, var(--white-a000) 100%);
+  background: var(--bg-top);
 }
 
 
@@ -120,7 +120,7 @@ h3.rm-level3 {
   margin: 0 calc(var(--s0) * -1);
   padding: var(--s-2) var(--s0);
   font-size: var(--s0);
-  color: var(--light);
+  color: var(--fg);
 }
 
 #roam-sidebar-logo {
@@ -190,8 +190,8 @@ h3.rm-level3 {
 */
 
 .rm-block-ref {
-  background: var(--light-fade);
-  color: var(--gray);
+  background: var(--bg-lite);
+  color: var(--fg-lite);
 }
 
 
@@ -204,7 +204,7 @@ h3.rm-level3 {
 }
 
 .bp3-popover, .bp3-elevation-3 {
-  font-size: var(--s-s);
+  font-size: var(--size-s);
 }
 
 
@@ -216,10 +216,10 @@ h3.rm-level3 {
   padding: var(--s-3) var(--s-2);
   padding-top: var(--s-1);
   border-radius: var(--s-3);
-  border: 1px solid var(--grayliter);
+  border: 1px solid var(--fg-liter);
   font-feature-settings: 'tnum', 'zero';
   /* background: var(--grayliter); */
-  color: var(--graylite);
+  color: var(--fg-lite);
 }
 
 .bp3-slider-axis .bp3-slider-label {
