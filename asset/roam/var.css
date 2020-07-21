@@ -77,6 +77,4 @@
   --secondary: var(--flame);
   --bg: var(--light);
   --fg: var(--dark);
-  
-  /* --light-fade: hsla(228, 33%, 97%, 0.5); */
 }
