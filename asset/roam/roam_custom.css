@@ -116,7 +116,7 @@ h3.rm-level3 {
 
 .roam-body .roam-app 
 .roam-sidebar-container .roam-sidebar-content 
-.starred-pages-wrapper .starred-pages a {
+.starred-pages-wrapper .starred-pages a .page {
   margin: 0 calc(var(--s0) * -1);
   padding: var(--s-2) var(--s0);
   font-size: var(--s0);
