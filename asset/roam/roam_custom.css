@@ -116,11 +116,11 @@ h3.rm-level3 {
 
 .roam-body .roam-app 
 .roam-sidebar-container .roam-sidebar-content 
-.starred-pages-wrapper .starred-pages .page {
+.starred-pages-wrapper .starred-pages a {
   margin: 0 calc(var(--s0) * -1);
   padding: var(--s-2) var(--s0);
   font-size: var(--s0);
-  color: var(--bg-light);
+  color: var(--light);
 }
 
 #roam-sidebar-logo {
