@@ -68,11 +68,25 @@
   --grayliter: var(--lavendergray);
 	--graylitest: var(--gainsboro);
 	
-	--white-a100: hsla(0, 0%, 100%, 1.00);
-	--white-a000: hsla(0, 0%, 100%, 0.00);
-	--blker-a100: hsla(228, 15%, 13%, 1.00);
-	--blker-a000: hsla(228, 15%, 13%, 0.00);
+	--alpha000: 0.00;
+	--alpha007: 0.07;
+	--alpha014: 0.14;
+	--alpha021: 0.21;
+	--alpha048: 0.48;
+	--alpha071: 0.71;
+	--alpha086: 0.86;
+	--alpha093: 0.93;
+	--alpha100: 1.00;
+
+	--white-a100: hsla(0, 0%, 100%, var(--alpha100));
+	--white-a000: hsla(0, 0%, 100%, var(--alpha000));
+
+	--blker-a100: hsla(228, 15%, 13%, var(--alpha100));
+	--blker-a100: hsla(228, 15%, 13%, var(--alpha007));
+	--blker-a000: hsla(228, 15%, 13%, var(--alpha000));
+
 	--dark-a100: var(--blker-a100);
+	--dark-a007: var(--blker-a007);
 	--dark-a000: var(--blker-a000);
   
   --dark: var(--blker);
