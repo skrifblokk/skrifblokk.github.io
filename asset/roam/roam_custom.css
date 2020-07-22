@@ -85,10 +85,10 @@ h3.rm-level3 {
   color: var(--fg);
 }
 
-.roam-body-main {
-	height: 100% !important;
-	top: 0 !important;
-}
+/* .roam-body-main { */
+	/* height: 100% !important; */
+	/* top: 0 !important; */
+/* } */
 
 .roam-article {
 	margin-top: var(--s2);
