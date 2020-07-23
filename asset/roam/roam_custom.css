@@ -18,8 +18,7 @@ div {
   font-family: var(--font-sans);
 }
 
-/* TEXT  */
-
+/* Text  */
 strong {
   font-weight: var(--strong-weight);
 }
@@ -28,13 +27,13 @@ del {
   color: var(--fg-liter);
 }
 
+/* Elements */
 hr {
   border-color: var(--fg);
   margin-top: calc(var(--s1) / 2);
 }
 
 /* Heading */
-
 h1, .rm-title-display, .rm-title-textarea {
   font-size: var(--s2);
   font-weight: var(--strong-weight);
@@ -54,12 +53,8 @@ h3.rm-level3 {
 }
 
 .level2 {
-	font-weight: var(--medium-weight);
-}
-
-.level2 {
   font-family: var(--font-sans);
-  font-size: var(--s1);
+  font-size: var(--size-l);
 	font-weight: var(--medium-weight);
   letter-spacing: var(--t1);
 }
@@ -79,7 +74,7 @@ h3.rm-level3 {
   font-family: monospace;
 }
 
-/* MAIN APP AREA */
+/* MAIN APP !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .roam-body .roam-app {
   color: var(--fg);
@@ -90,19 +85,17 @@ h3.rm-level3 {
 	/* top: 0 !important; */
 /* } */
 
-.roam-article {
+/* .roam-article {
 	margin-top: var(--s2);
-}
+} */
 
-/* TOPBAR */
-
+/* Topbar */
 .roam-topbar {
 	background-color: transparent;
   background: var(--bg-top);
 }
 
-/* LEFT SIDEBAR */
-
+/* Left Sidebar */
 .roam-body .roam-app 
 .roam-sidebar-container {
   background: var(--bg-left);
@@ -127,8 +120,7 @@ h3.rm-level3 {
   display: none;
 }
 
-/* RIGHT SIDEBAR */
-
+/* Right Sidebar */
 #right-sidebar {
 	background-color: var(--bg-right) !important;
   box-shadow: 0 0 var(--s1) 0.0625em hsla(228, 15%, 13%, 0.1);
@@ -142,7 +134,19 @@ h3.rm-level3 {
   padding-left: var(--s0);
 }
 
-/* BLOCKS & BULLETS */
+/* BLOCKS & BULLETS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* .roam-block-container .flex-align-start {
+  align-items: center;
+}
+
+.roam-block-container {
+  border-radius: 0;
+}
+
+.block-bullet-view {
+  margin-left: 0.375em;
+}
 
 .controls {
   align-items: center;
@@ -161,20 +165,7 @@ h3.rm-level3 {
 
 .controls .simple-bullet-outer {
   margin-top: 0;
-}
-
-.roam-block-container .flex-align-start {
-  align-items: center;
-}
-
-.roam-block-container {
-  border-radius: 0;
-}
-
-.block-bullet-view {
-  margin-left: 0.375em;
-}
-
+} */
 
 
 /* PAGE REF LINKS & TAGS */

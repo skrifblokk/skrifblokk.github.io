@@ -8,7 +8,7 @@
   --s2: calc(var(--s1) * var(--ratio));
   --s3: calc(var(--s2) * var(--ratio));
   
-  --size-s: calc(var(--s0) * 0.875);
+  
   --s-1: calc(var(--s0) / var(--ratio));
   --s-2: calc(var(--s-1) / var(--ratio));
   --s-3: calc(var(--s-2) / var(--ratio));
@@ -17,7 +17,15 @@
   --measure: 60ch;
   
   /* Type */
-  --font-sans: 'Inter var experimental', 'Inter var', Inter;
+	--font-sans: 'Inter var experimental', 'Inter var', Inter;
+	
+	--size-xs: calc(var(--s0) * 0.75);
+	--size-s: calc(var(--s0) * 0.875);
+	--size: var(--s0);
+	--size-l: calc(var(--s0) * 1.16667);
+	--size-xl: var(--s1);
+	--size-xxl: var(--s2);
+
   --t0: 0em; /* -0.011em; */
   --t1: -0.019em;
   --t2: -0.022em;
