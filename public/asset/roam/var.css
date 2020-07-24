@@ -1,5 +1,8 @@
 :root {
-  /* Scale */
+
+
+	/* Scale */
+	
   --ratio: 1.5;
   
   --s0: 1rem;
@@ -15,41 +18,30 @@
   --s-4: calc(var(--s-3) / var(--ratio));
 
   --measure: 60ch;
-  
-  /* Type */
+	
+	
+	/* Type */
+	
 	--font-sans: 'Inter var experimental', 'Inter var', Inter;
 	
 	--size-xs: calc(var(--s0) * 0.75);
 	--size-s: calc(var(--s0) * 0.875);
 	--size: var(--s0);
-	--size-l: calc(var(--s0) * 1.16667);
+	--size-l: calc(var(--s0) * 1.125);
 	--size-xl: var(--s1);
 	--size-xxl: var(--s2);
 
-  --t0: 0em; /* -0.011em; */
+  --t0: -0.011em; /* -0.011em; */
   --t1: -0.019em;
   --t2: -0.022em;
   --t3: -0.033em;
-  
-  --fs0: 1rem;
-  --fs1: 1.25rem;
-  --fs2: 1.5rem;
-  --fs3: 2rem;
   
   --normal-weight: 400;
   --medium-weight: 512;
   --strong-weight: 600;
 
-  /* Color */
-  --pewter: #739fab;
-  --flame: #e0521a;
-  --alabaster: #f4f2e6;
-  
-  --copper: #ce7365;
-  --verdigris: #5ab3b6;
-  --steel: #518ab8;
-  --gold: #e3ca90;
-  
+	/* Color */	
+	
   --raisinblack0: #16161c;
   --raisinblack1: #1c1e26; /* hsla(228, 15%, 13%, 1.0); */
   --raisinblack2: #262830; /* hsla(228, 12%, 17%, 1.0); */
@@ -62,7 +54,9 @@
   --gainsboro: #e2e3e9; /* hsla(231, 14%, 90%, 1.0) */  
   --ghostwhite: #f5f6fa; /* hsla(228, 33%, 97%, 1.0); */
   --cultured: #f9fafb; /* hsla(210, 20%, 98%, 1.0); */
-  --white: #ffffff; /* hsla(0, 0%, 100%, 1.0); */
+	--white: #ffffff; /* hsla(0, 0%, 100%, 1.0); */
+	
+	--black: #000000;
 
   --blk: var(--raisinblack0);
   --blker: var(--raisinblack1);
@@ -96,13 +90,40 @@
 	--dark-a100: var(--blker-a100);
 	--dark-a007: var(--blker-a007);
 	--dark-a000: var(--blker-a000);
-  
+
   --dark: var(--blker);
 	--light: var(--ghostwhite);
 	
-  --primary: var(--pewter);
-	--secondary: var(--flame);
+	/* --pewter: #739fab;
+  --flame: #e0521a;
+  --alabaster: #f4f2e6;
+  
+  --copper: #ce7365;
+  --verdigris: #5ab3b6;
+  --steel: #518ab8;
+	--gold: #e3ca90; */
 	
+	--verdigris: hsla(180, 71%, 40%, 1);
+	--paradise-pink: hsla(344, 79%, 56%, 1);
+	--dark-cyan: hsla(184, 67%, 34%, 1);
+	--carmine-m-p: hsla(346, 86%, 46%, 1);
+	--maximum-blue-green: hsla(181, 71%, 45%, 1);
+	--paradise-pink-2: hsla(345, 79%, 59%, 1);
+	--verdigris-2: hsla(184, 67%, 44%, 1);
+	--blush: hsla(346, 77%, 63%, 1);
+	
+	/* light syntax ui */
+	--primary: var(--dark-cyan);
+	--secondary: var(--carmine-m-p);
+	--primary-lite: var(--verdigris);
+	--secondary-lite: var(--paradise-pink);
+
+	/* dark syntax ui */
+	/* --primary: var(--maximum-blue-green);
+	--secondary: var(--paradise-pink-2);
+	--primary-lite: var(--verdigris-2);
+	--secondary-lite: var(--blush); */
+
 	--bg: var(--white);
 	--fg: var(--dark);
 
@@ -113,4 +134,7 @@
 	--bg-top: linear-gradient(180deg, var(--white-a100) 0%, var(--white-a000) 100%);
 	--bg-left: var(--fg);
 	--bg-right: var(--bg);
+
+  --roam-highlight: #fef09f;
+  --roam-highlight-lite: #fef6c8;
 }
