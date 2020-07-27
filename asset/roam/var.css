@@ -78,57 +78,6 @@
   --blk-ish: var(--raisin-black);
 	--blk: var(--raisin-black-2);
 
-	/* primer gray h+8 s+2 */
-	/* --cultured: hsla(210, 20%, 98%, 1);
-	--ghost-white: hsla(228, 33%, 97%, 1);
-	--gainsboro: hsla(231, 14%, 90%, 1);
-	--light-gray: hsla(224, 13%, 83%, 1);
-	--manatee: hsla(226, 11%, 62%, 1);
-	--black-coral: hsla(227, 10%, 45%, 1);
-	--independence: hsla(229, 11%, 38%, 1);
-	--charcoal: hsla(223, 14%, 30%, 1);
-	--raisin-black: hsla(228, 14%, 21%, 1);
-	--raisin-black-2: hsla(229, 14%, 16%, 1);
-	--raisin-black-3: hsla(227, 15%, 12%, 1);
-
-	--wite: var(--cultured);
-  --wite-ish: var(--ghost-white);
-  --gray-litest: var(--gainsboro);
-  --gray-liter: var(--light-gray);
-  --gray-lite: var(--manatee);
-  --gray: var(--black-coral);
-  --gray-dark: var(--independence);
-  --gray-darker: var(--charcoal);
-  --gray-darkest: var(--raisin-black);
-  --blk-ish: var(--raisin-black-2);
-	--blk: var(--raisin-black-3); */
-
-	/* primer gshift reduce s+16 b+16 */
-	--paradise-pink: hsla(354, 71%, 61%, 1);
-	--mustard: hsla(46, 100%, 68%, 1);
-	--emerald: hsla(150, 67%, 50%, 1);
-	--pacific-blue: hsla(188, 74%, 43%, 1);
-	--azure: hsla(212, 97%, 52%, 1);
-
-	/* primer gshift reduce s+16 b+16 -> b+32 */
-	--shimmering-blush: hsla(354, 71%, 73%, 1);
-	--jasmine: hsla(46, 100%, 78%, 1);
-	--medium-aquamarine: hsla(150, 67%, 66%, 1);
-	--sky-blue-crayola: hsla(188, 74%, 61%, 1);
-	--little-boy-blue: hsla(212, 98%, 67%, 1);
-	
-	--red: var(--shimmering-blush);
-	--yellow: var(--jasmine);
-	--green: var(--emerald);
-	--cyan: var(--pacific-blue);
-	--blue: var(--azure);
-
-	--red-lite: var(--paradise-pink);
-	--yellow-lite: var(--mustard);
-	--green-lite: var(--medium-aquamarine);
-	--cyan-lite: var(--pacific-blue);
-	--blue-lite: var(--little-boy-blue);
-
 	--darkest: var(--tru-blk);
 	--dark: var(--blk);
 	--ntrl-dark: var(--gray-darker);
@@ -139,17 +88,14 @@
 	--lite: var(--wite);
 	--litest: var(--tru-white);
 
-	--primary: var(--cyan);
-	--secondary: var(--red);
-	--primary-lite: var(--cyan-lite);
-	--secondary-lite: var(--red-lite);
-
 	--bg: var(--litest);
 	--bg-dark: var(--lite);
 	--bg-darker: var(--ntrl-litest);
 
-	--fg: var(--dark);
-	--fg-lite: var(--ntrl-dark);
+	--fg-darkest: var(--darkest);
+	--fg-dark: var(--dark);
+	--fg: var(--ntrl-dark);
+	--fg-lite: var(--ntrl);
 	--fg-liter: var(--ntrl-lite);
 	--fg-litest: var(--ntrl-liter);
 
@@ -157,6 +103,6 @@
 	--bg-left: var(--dark);
 	--bg-right: var(--lite);
 
-	--roam-highlight: var(--yellow);
-  --roam-highlight-lite: var(--yellow-lite);
+	/* --roam-highlight: var(--yellow);
+  --roam-highlight-lite: var(--yellow-lite); */
 }
