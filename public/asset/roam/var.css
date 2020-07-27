@@ -139,9 +139,9 @@
 	--lite: var(--wite);
 	--litest: var(--tru-white);
 
-	--primary: var(--blue);
+	--primary: var(--cyan);
 	--secondary: var(--red);
-	--primary-lite: var(--blue-lite);
+	--primary-lite: var(--cyan-lite);
 	--secondary-lite: var(--red-lite);
 
 	--bg: var(--litest);
