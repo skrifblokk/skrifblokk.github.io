@@ -1,28 +1,30 @@
-:root {
-	
-	
-	/* Scale */
-	
-  --ratio: 1.5;
+:root {  
+  
+  /* Scale */
+  
+  --ratio: 1.41414;
   
   --s0: 1rem;
   
   --s1: calc(var(--s0) * var(--ratio));
   --s2: calc(var(--s1) * var(--ratio));
   --s3: calc(var(--s2) * var(--ratio));
-  
+	--s4: calc(var(--s3) * var(--ratio));
+	--s5: calc(var(--s4) * var(--ratio));
   
   --s-1: calc(var(--s0) / var(--ratio));
   --s-2: calc(var(--s-1) / var(--ratio));
   --s-3: calc(var(--s-2) / var(--ratio));
   --s-4: calc(var(--s-3) / var(--ratio));
+	--s-5: calc(var(--s-4) / var(--ratio));
 
   --measure: 60ch;
+  
+  
+  
+  /* Type */
 	
-	
-	/* Type */
-	
-	--font-sans: 'Inter var experimental', 'Inter var', Inter;
+	--fnt-sans: 'Inter var experimental', 'Inter var', Inter;
 	
 	--size-xs: calc(var(--s0) * 0.75);
 	--size-s: calc(var(--s0) * 0.875);
@@ -31,110 +33,130 @@
 	--size-xl: var(--s1);
 	--size-xxl: var(--s2);
 
-  --t0: -0.011em; /* -0.011em; */
+  /* ls default at -0.011em + b variable set to 0.55 */
+  --t0: normal; /* -0.011em; */
   --t1: -0.019em;
-  --t2: -0.022em;
+  --t2: -0.025em;
   --t3: -0.033em;
   
-  --normal-weight: 400;
-  --medium-weight: 512;
-  --strong-weight: 600;
-
-	/* Color */	
+  --wght: 400;
+  --wght-medium: 520;
+	--wght-strong: 640;
 	
-  --raisinblack0: #16161c;
-  --raisinblack1: #1c1e26; /* hsla(228, 15%, 13%, 1.0); */
-  --raisinblack2: #262830; /* hsla(228, 12%, 17%, 1.0); */
-  --gunmetal: #30333f; /* hsla(228, 14%, 22%, 1.0) */
-  --charcoal: #454a58; /* hsla(224, 12%, 31%, 1.0) */
-  --blackcoral1: #595d6c; /* hsla(227, 10%, 39%, 1.0) */
-  --blackcoral2: #6a6e7f; /* hsla(229, 9%, 46%, 1.0) */
-  --manatee: #959aa9; /* hsla(225, 10%, 62%, 1.0) */
-  --lavendergray: #cfd1da; /* hsla(229, 13%, 83%, 1.0) */
-  --gainsboro: #e2e3e9; /* hsla(231, 14%, 90%, 1.0) */  
-  --ghostwhite: #f5f6fa; /* hsla(228, 33%, 97%, 1.0); */
-  --cultured: #f9fafb; /* hsla(210, 20%, 98%, 1.0); */
-	--white: #ffffff; /* hsla(0, 0%, 100%, 1.0); */
-	
-	--black: #000000;
-
-  --blk: var(--raisinblack0);
-  --blker: var(--raisinblack1);
-  --blkish: var(--raisinblack2);
-
-  --graydarkest: var(--gunmetal);
-  --graydarker: var(--charcoal);
-  --graydark: var(--blackcoral1);
-  --gray: var(--blackcoral2);
-  --graylite: var(--manatee);
-  --grayliter: var(--lavendergray);
-	--graylitest: var(--gainsboro);
-	
-	--alpha000: 0.00;
-	--alpha007: 0.07;
-	--alpha014: 0.14;
-	--alpha021: 0.21;
-	--alpha048: 0.48;
-	--alpha071: 0.71;
-	--alpha086: 0.86;
-	--alpha093: 0.93;
-	--alpha100: 1.00;
-
-	--white-a100: hsla(0, 0%, 100%, var(--alpha100));
-	--white-a000: hsla(0, 0%, 100%, var(--alpha000));
-
-	--blker-a100: hsla(228, 15%, 13%, var(--alpha100));
-	--blker-a100: hsla(228, 15%, 13%, var(--alpha007));
-	--blker-a000: hsla(228, 15%, 13%, var(--alpha000));
-
-	--dark-a100: var(--blker-a100);
-	--dark-a007: var(--blker-a007);
-	--dark-a000: var(--blker-a000);
-
-  --dark: var(--blker);
-	--light: var(--ghostwhite);
-	
-	/* --pewter: #739fab;
-  --flame: #e0521a;
-  --alabaster: #f4f2e6;
+	--wght-title: var(--wght-strong);
   
-  --copper: #ce7365;
-  --verdigris: #5ab3b6;
-  --steel: #518ab8;
-	--gold: #e3ca90; */
-	
-	--verdigris: hsla(180, 71%, 40%, 1);
-	--paradise-pink: hsla(344, 79%, 56%, 1);
-	--dark-cyan: hsla(184, 67%, 34%, 1);
-	--carmine-m-p: hsla(346, 86%, 46%, 1);
-	--maximum-blue-green: hsla(181, 71%, 45%, 1);
-	--paradise-pink-2: hsla(345, 79%, 59%, 1);
-	--verdigris-2: hsla(184, 67%, 44%, 1);
-	--blush: hsla(346, 77%, 63%, 1);
-	
-	/* light syntax ui */
-	--primary: var(--dark-cyan);
-	--secondary: var(--carmine-m-p);
-	--primary-lite: var(--verdigris);
-	--secondary-lite: var(--paradise-pink);
+  
+  
+  /* Color */
 
-	/* dark syntax ui */
-	/* --primary: var(--maximum-blue-green);
-	--secondary: var(--paradise-pink-2);
-	--primary-lite: var(--verdigris-2);
-	--secondary-lite: var(--blush); */
+	--tru-wite: #ffffff;
+	--tru-blk: #000000;
 
-	--bg: var(--white);
+  /* primer gray h+4 */
+  --white: hsla(210, 25%, 98%, 1);
+  --ghost-white: hsla(216, 33%, 97%, 1);
+  --gainsboro: hsla(223, 13%, 90%, 1);
+  --light-gray: hsla(220, 11%, 83%, 1);
+  --manatee: hsla(219, 9%, 62%, 1);
+  --black-coral: hsla(221, 8%, 45%, 1);
+  --black-coral-2: hsla(222, 9%, 38%, 1);
+  --charcoal: hsla(218, 12%, 30%, 1);
+  --gunmetal: hsla(219, 13%, 21%, 1);
+  --raisin-black: hsla(216, 12%, 16%, 1);
+	--raisin-black-2: hsla(220, 14%, 12%);
+
+  /* friendlier */
+  --wite: var(--white);
+  --wite-ish: var(--ghost-white);
+  --gray-litest: var(--gainsboro);
+  --gray-liter: var(--light-gray);
+  --gray-lite: var(--manatee);
+  --gray: var(--black-coral);
+  --gray-dark: var(--black-coral-2);
+  --gray-darker: var(--charcoal);
+  --gray-darkest: var(--gunmetal);
+  --blk-ish: var(--raisin-black);
+	--blk: var(--raisin-black-2);
+
+	/* primer gray h+8 s+2 */
+	/* --cultured: hsla(210, 20%, 98%, 1);
+	--ghost-white: hsla(228, 33%, 97%, 1);
+	--gainsboro: hsla(231, 14%, 90%, 1);
+	--light-gray: hsla(224, 13%, 83%, 1);
+	--manatee: hsla(226, 11%, 62%, 1);
+	--black-coral: hsla(227, 10%, 45%, 1);
+	--independence: hsla(229, 11%, 38%, 1);
+	--charcoal: hsla(223, 14%, 30%, 1);
+	--raisin-black: hsla(228, 14%, 21%, 1);
+	--raisin-black-2: hsla(229, 14%, 16%, 1);
+	--raisin-black-3: hsla(227, 15%, 12%, 1);
+
+	--wite: var(--cultured);
+  --wite-ish: var(--ghost-white);
+  --gray-litest: var(--gainsboro);
+  --gray-liter: var(--light-gray);
+  --gray-lite: var(--manatee);
+  --gray: var(--black-coral);
+  --gray-dark: var(--independence);
+  --gray-darker: var(--charcoal);
+  --gray-darkest: var(--raisin-black);
+  --blk-ish: var(--raisin-black-2);
+	--blk: var(--raisin-black-3); */
+
+	/* primer gshift reduce s+16 b+16 */
+	--paradise-pink: hsla(354, 71%, 61%, 1);
+	--mustard: hsla(46, 100%, 68%, 1);
+	--emerald: hsla(150, 67%, 50%, 1);
+	--pacific-blue: hsla(188, 74%, 43%, 1);
+	--azure: hsla(212, 97%, 52%, 1);
+
+	/* primer gshift reduce s+16 b+16 -> b+32 */
+	--shimmering-blush: hsla(354, 71%, 73%, 1);
+	--jasmine: hsla(46, 100%, 78%, 1);
+	--medium-aquamarine: hsla(150, 67%, 66%, 1);
+	--sky-blue-crayola: hsla(188, 74%, 61%, 1);
+	--little-boy-blue: hsla(212, 98%, 67%, 1);
+	
+	--red: var(--shimmering-blush);
+	--yellow: var(--jasmine);
+	--green: var(--emerald);
+	--cyan: var(--pacific-blue);
+	--blue: var(--azure);
+
+	--red-lite: var(--paradise-pink);
+	--yellow-lite: var(--mustard);
+	--green-lite: var(--medium-aquamarine);
+	--cyan-lite: var(--pacific-blue);
+	--blue-lite: var(--little-boy-blue);
+
+	--darkest: var(--tru-blk);
+	--dark: var(--blk);
+	--ntrl-dark: var(--gray-darker);
+	--ntrl: var(--gray);
+	--ntrl-lite: var(--gray-lite);
+	--ntrl-liter: var(--gray-liter);
+	--ntrl-litest: var(--gray-litest);
+	--lite: var(--wite);
+	--litest: var(--tru-white);
+
+	--primary: var(--blue);
+	--secondary: var(--red);
+	--primary-lite: var(--blue-lite);
+	--secondary-lite: var(--red-lite);
+
+	--bg: var(--litest);
+	--bg-dark: var(--lite);
+	--bg-darker: var(--ntrl-litest);
+
 	--fg: var(--dark);
+	--fg-lite: var(--ntrl-dark);
+	--fg-liter: var(--ntrl-lite);
+	--fg-litest: var(--ntrl-liter);
 
-	--bg-lite: var(--light);
-	--fg-lite: var(--gray);
-	--fg-liter: var(--grayliter);
+	--bg-top: var(--litest);
+	--bg-left: var(--dark);
+	--bg-right: var(--lite);
 
-	--bg-top: linear-gradient(180deg, var(--white-a100) 0%, var(--white-a000) 100%);
-	--bg-left: var(--fg);
-	--bg-right: var(--bg);
-
-  --roam-highlight: #fef09f;
-  --roam-highlight-lite: #fef6c8;
+	--roam-highlight: var(--yellow);
+  --roam-highlight-lite: var(--yellow-lite);
 }
