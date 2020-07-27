@@ -8,12 +8,12 @@
 
 /*-- Global ------------------------------------------------------------------*/
 
-html, body {
+body {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
   font-family: var(--fnt-sans);
   font-feature-settings: 'calt', 'zero';
-  font-size: 16px;
+  font-size: var(--s0);
 	letter-spacing: var(--t0);
 }
 
