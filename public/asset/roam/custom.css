@@ -27,11 +27,11 @@ div {
 }
 
 a[href] {
-  color: var(--fg-lite);
+  /* color: var(--fg-lite); */
 }
 
 a.rm-alias.rm-alias-external {
-  color: var(--primary-lite);
+  /* color: var(--blue); */
 }
 
 strong {
@@ -52,13 +52,13 @@ textarea {
 
 /* Heading */
 h1, .rm-title-display, .rm-title-textarea {
-  font-size: var(--size-xl);
+  font-size: var(--size-xxl);
   font-weight: var(--wght-title);
-  letter-spacing: var(--t2);
+  letter-spacing: var(--t3);
 }
 
 h1.level2 a {
-	color: var(--primary);
+	/* color: var(--primary); */
 }
 
 h2.rm-level2 {
@@ -89,7 +89,7 @@ h3.rm-level3 {
 /*-- App ---------------------------------------------------------------------*/
 
 .roam-body .roam-app {
-  color: var(--fg);
+  color: var(--fg-dark);
 }
 
 .roam-center {
@@ -103,7 +103,6 @@ h3.rm-level3 {
 
 /* Topbar */
 .roam-topbar {
-	background-color: transparent;
   background: var(--bg-top);
 }
 
@@ -113,7 +112,7 @@ h3.rm-level3 {
 .bp3-input[type='search'] {
   border: none;
   box-shadow: none;
-  background-color: var(--bg-dark);
+  /* background-color: var(--bg-dark); */
 }
 
 /* Left Sidebar */
@@ -125,7 +124,7 @@ h3.rm-level3 {
 .roam-body .roam-app 
 .roam-sidebar-container .roam-sidebar-content 
 .log-button {
-  color: var(--secondary-lite);
+  /* color: var(--secondary-lite); */
 }
 
 .roam-body .roam-app 
@@ -200,7 +199,12 @@ h3.rm-level3 {
 }
 
 .rm-page-ref-link-color {
-  color: var(--primary);
+  /* color: var(--primary); */
+}
+
+.rm-page-ref-tag {
+	font-weight: var(--wght);
+	color: var(--ntrl-lite);
 }
 
 .rm-block-ref {
@@ -213,7 +217,7 @@ h3.rm-level3 {
 /* Controls, buttons, portals */
 .bp3-button .bp3-icon,
 .bp3-button[class*="bp3-icon-"]::before {
-  color: var(--secondary-lite);
+  /* color: var(--secondary-lite); */
 }
 
 /* .bp3-button .bp3-icon, 
@@ -223,11 +227,11 @@ h3.rm-level3 {
 } */
 
 .bp3-button[class*="bp3-icon-star-empty"]::before {
-  color: var(--yellow);
+  /* color: var(--yellow); */
 }
 
 .bp3-button[class*="bp3-icon-star"]::before {
-  color: var(--yellow);
+  /* color: var(--yellow); */
 }
 
 .bp3-popover, .bp3-elevation-3 {
