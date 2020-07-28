@@ -8,13 +8,17 @@
 
 /*-- Global ------------------------------------------------------------------*/
 
-body {
+html {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
   font-family: var(--fnt-sans);
   font-feature-settings: 'calt', 'zero';
-  font-size: var(--s0);
+  font-size: 16px;
 	letter-spacing: var(--t0);
+}
+
+body {
+	font-size: var(--size-s);
 }
 
 hr {
@@ -23,7 +27,8 @@ hr {
 }
 
 div {
-  font-family: var(--fnt-sans);
+	font-family: var(--fnt-sans);
+	font-size: var(--size-s);
 }
 
 a[href] {
