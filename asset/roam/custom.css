@@ -8,7 +8,7 @@
 
 /*-- Global ------------------------------------------------------------------*/
 
-html, body {
+html {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
   font-family: var(--fnt-sans);
@@ -17,13 +17,18 @@ html, body {
 	letter-spacing: var(--t0);
 }
 
+body {
+	font-size: var(--size-s);
+}
+
 hr {
 	border-color: var(--secondary-lite);
 	margin-top: calc(var(--s1 / 2));
 }
 
 div {
-  font-family: var(--fnt-sans);
+	font-family: var(--fnt-sans);
+	font-size: var(--size-s);
 }
 
 a[href] {
@@ -62,20 +67,20 @@ h1.level2 a {
 }
 
 h2.rm-level2 {
-	font-size: var(--size-l);
+	font-size: var(--size-xl);
   font-weight: var(--wght-medium);
   letter-spacing: var(--t1);
 }
 
 h3.rm-level3 {
-	font-size: var(--size);
+	font-size: var(--size-l);
   font-weight: var(--wght-medium);
   letter-spacing: var(--t0);
 }
 
 .level2 {
   font-family: var(--fnt-sans);
-  font-size: var(--size-l);
+  font-size: var(--size-xl);
 	font-weight: var(--wght-medium);
   letter-spacing: var(--t1);
 }
