@@ -28,7 +28,6 @@ hr {
 
 div {
 	font-family: var(--fnt-sans);
-	font-size: var(--size);
 }
 
 a[href] {
